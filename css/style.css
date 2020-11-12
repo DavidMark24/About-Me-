@@ -1,20 +1,41 @@
 body {
-    background-image: url("https://ak.picdn.net/shutterstock/videos/1057542160/thumb/1.jpg?ip=x480");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcbGUM40PkGD9qZpB4czOAuMOY-gzrsVXkzg&usqp=CAU");
     background-size: cover;
     
 }
 
+.container-fluid {
+background-color: white;
+margin-top: auto;
+height:auto ;
+
+}
+
+.container-fluid h2 {
+    text-align: center;
+}
+
+img {
+    width: 480px;
+    height: auto;
+    
+}
+
 .container {
-    background-color: aliceblue;
-    margin-top: 60px;
-    margin-left: 60px;
-    width: 900px;
+    font-family: sans-serif ;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
     height: auto;
 }
+
 
 #title {
     margin-top:20px ;
     margin-bottom: 20px;
+    text-align: center;
 
 }
 
@@ -22,6 +43,7 @@ body {
     position: fixed;
    left: 0;
    bottom: 0;
+   height: 20px;
    width: 100%;
    background-color: white;
    color: black;
